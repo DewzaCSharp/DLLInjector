@@ -11,7 +11,7 @@ void PrintError(const std::wstring& msg) {
 
 int wmain(int argc, wchar_t* argv[]) {
     if (argc < 3) {
-        std::wcerr << L"Usage: Injector.exe <ProcessName> <DLLName>\n";
+        std::wcerr << L"Usage: DLLInjector.exe <ProcessName> <DLLName>\n";
         system("pause");
         return 1;
     }
